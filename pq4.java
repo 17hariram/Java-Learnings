@@ -19,16 +19,16 @@ public class pq4 {
         System.out.println("Your Average Mark is: "+Avg);
 
         if(Avg<35){
-            System.out.println("Since your average mark is less than 35, You are Listed in Special class");
+            System.out.println("Since your average mark is less than 35, You are Listed in Special class!");
         }
         else if(Avg>35 && Avg<70){
-            System.out.println("Since the mark "+Avg+" dosn't meets our Excellence, you are informed to write the Question paper Answers 2 times");
+            System.out.println("Since the mark "+Avg+" dosn't meets our Excellence, you are Expected to write the Question paper Answers 2 times!");
         }
         else if(Avg>70 && Avg<100){
             System.out.println("Excellent! Keep it up");
         }
         else{
-            System.out.println("Provide a Valid marks (from 0-100), Not letters");
+            System.out.println("Provide a Valid marks (from 0-100), Not letters or numbers more than 100");
         }
     }
 }
